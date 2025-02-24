@@ -8,11 +8,11 @@ class ProductController extends Controller
 {
     // Define an array of anime
     protected $animeList = [
-        ['id' => 1, 'title' => 'Naruto', 'genre' => 'Action, Adventure', 'episodes' => 220],
-        ['id' => 2, 'title' => 'Attack on Titan', 'genre' => 'Action, Drama, Fantasy', 'episodes' => 75],
-        ['id' => 3, 'title' => 'My Hero Academia', 'genre' => 'Action, Superhero', 'episodes' => 113],
-        ['id' => 4, 'title' => 'Demon Slayer', 'genre' => 'Action, Fantasy', 'episodes' => 26],
-        ['id' => 5, 'title' => 'Death Note', 'genre' => 'Mystery, Psychological', 'episodes' => 37],
+        ['id' => 1, 'title' => 'Naruto', 'genre' => 'Action, Fantasy, Shonen', 'episodes' => 220, 'ratings' => 4.8],
+        ['id' => 2, 'title' => 'Attack on Titan', 'genre' => 'Shonen, Dark Fantasy', 'episodes' => 75, 'ratings' => 4.9],
+        ['id' => 3, 'title' => 'My Hero Academia', 'genre' => 'Shonen manga, Comedy, Comedy drama, Science fantasy, Action manga, Superhero comics', 'episodes' => 113, 'ratings' => 4.7],
+        ['id' => 4, 'title' => 'Demon Slayer', 'genre' => 'Shonen manga, Dark fantasy, Action manga, Fantasy', 'episodes' => 26, 'ratings' => 4.8],
+        ['id' => 5, 'title' => 'Death Note', 'genre' => 'mystery, supernatural, thriller', 'episodes' => 37, 'ratings' => 4.9],
     ];
 
     // Method to retrieve and display the anime list
